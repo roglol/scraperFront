@@ -1,0 +1,33 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@material-ui/core": "^4.9.5",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "next": "^9.2.3-canary.26",
+    "next-cookies": "^2.0.3",
+    "next-images": "^1.3.1",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.0",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dom": "^16.13.0",
+    "reactstrap": "^8.4.1",
+    "youtube-mp3-downloader": "^0.6.5",
+    "ytdl-core": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browser":{
+    "child_process": false
+    },
+  "author": "",
+  "license": "ISC"
+}
